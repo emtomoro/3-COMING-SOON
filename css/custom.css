@@ -1,0 +1,39 @@
+.bg-blue {
+    background-color: #03a9f5;
+}
+.container:first-child {
+    min-height: 100vh;
+    padding-bottom: 20px;
+    background-image: url(../img/banner-1.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.narrow-row {
+    text-align: center;
+}
+    .logo {
+        height: 34px;
+        object-fit: contain;
+        margin-bottom: 40px;
+    }
+    h1 {
+        margin-bottom: 20px;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+        
+    }
+    .narrow-row > p {
+        margin-bottom: 60px;
+        font-size: 20px;
+        line-height: 25px;
+        color: #999;
+    }
+    .clock {
+        margin-bottom: 60px;
+    }
+    .narrow-row > .form {
+        margin-bottom: 10px;
+    }
